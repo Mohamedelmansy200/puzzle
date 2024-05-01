@@ -1,0 +1,56 @@
+name: slide_puzzle_game
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  audioplayers: ^5.2.1
+  bloc: ^8.0.2
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  get_it: ^7.2.0
+  image: ^3.1.1
+  intl: ^0.18.1
+  path_provider: ^2.0.9
+  responsive_builder: ^0.4.1
+  screenshot: ^2.1.0
+  share_plus: ^2.0.0
+  shared_preferences: ^2.0.13
+  window_manager: ^0.3.8
+
+dev_dependencies:
+  bloc_test: ^9.0.2
+  flutter_launcher_icons: ^0.11.0
+  flutter_native_splash: ^2.2.16
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.2.0
+  very_good_analysis: ^2.4.0
+
+flutter:
+  fonts:
+    - family: Space-Mode
+      fonts:
+        - asset: fonts/space-mode-1.0-regular.otf
+        - asset: fonts/space-mode-1.0-semibold.otf
+          weight: 600
+        - asset: fonts/space-mode-1.0-bold.otf
+          weight: 700
+        - asset: fonts/space-mode-1.0-black.otf
+          weight: 800  
+  uses-material-design: true
+  generate: true
+  assets:
+   - assets/audio/
+   - assets/
+   - assets/img/
+   - assets/img/backgrounds/
+   - assets/img/characters/
+   - assets/img/tiles/
